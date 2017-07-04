@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border:none;
+	width: 100%;
+	height: 100%;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.swiper-container{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+.swiper-wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.tst{
+	transition: transform .6s linear;
+}
+.swiper-slide{
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+}

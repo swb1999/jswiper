@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+		<title>jswiper</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="swiper-container">
+			<div class="swiper-wrapper transition">
+				<div class="swiper-slide">
+					<img src="images/859035.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="images/859049.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="images/859059.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="images/859063.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="images/859067.jpg" />
+				</div>
+				<div class="swiper-slide">
+					<img src="images/859083.jpg" />
+				</div>
+			</div>
+		</div>
+		<script src="js/jswiper.js"></script>
+		<script>
+			new jswiper(".swiper-container",{
+				direction:"horizontal",
+				autoplay:3000
+			});
+		</script>
+	</body>
+</html>
